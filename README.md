@@ -55,17 +55,6 @@ Clone o repositório e instale as dependências necessárias:
 pip install pandas matplotlib seaborn scikit-learn
 ```
 
-#### Execução dos Scripts
-Os scripts devem ser executados na seguinte ordem para reproduzir todo o processo:
-```bash
-python 01_load_and_inspect.py        # Carrega e inspeciona os dados
-python 02_demographic_analysis.py    # Realiza a análise demográfica
-python 03_behavioral_analysis.py     # Analisa o comportamento de uso do cartão
-python 04_preprocessing.py           # Prepara os dados para a modelagem
-python 05_modeling.py                # Treina e avalia o modelo base
-python 06_refine_model.py            # Otimiza o modelo e avalia a versão final
-```
-
 ## 5. Resultados
 
 A otimização do modelo resultou em uma melhora significativa na capacidade de identificar clientes em risco de churn, conforme demonstrado pela comparação dos relatórios de classificação para a classe `Saiu (1)`:
@@ -76,7 +65,7 @@ A otimização do modelo resultou em uma melhora significativa na capacidade de 
 | **Precision** | 94%         | **84%**         | **-10%**: Um leve aumento nos "falsos positivos", uma troca vantajosa. |
 | **F1-Score**| 83%         | **84%**         | **+1%**: Melhor equilíbrio geral entre precisão e recall.            |
 
-O modelo final (`best_model` no script `06_refine_model.py`) representa um ativo valioso, capaz de gerar listas de clientes de alto risco com alta acurácia e cobertura.
+O modelo final (`best_model`) representa um ativo valioso, capaz de gerar listas de clientes de alto risco com alta acurácia e cobertura.
 
 ## 6. Próximos Passos
 Como sugestões para trabalhos futuros, o projeto pode ser estendido das seguintes formas:
