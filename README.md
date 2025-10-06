@@ -11,7 +11,7 @@ Através da análise de dados demográficos e comportamentais dos clientes, cons
 
 ## 2. O Conjunto de Dados
 
-O dataset utilizado foi o `bankchurners_.csv`, um conjunto de dados público que contém informações de mais de 10.000 clientes de um portfólio de cartão de crédito.
+O dataset utilizado foi o `BankChurners.csv`, um conjunto de dados público que contém informações de mais de 10.000 clientes de um portfólio de cartão de crédito.
 
 As principais informações incluem:
 - **Dados Demográficos:** Idade, gênero, estado civil, nível de escolaridade e faixa de renda.
